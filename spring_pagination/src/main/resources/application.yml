@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: Anhdung1302
+    url: jdbc:mysql://localhost:3307/spring_pagination
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
